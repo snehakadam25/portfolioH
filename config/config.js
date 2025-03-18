@@ -1,10 +1,10 @@
 
-import profile from './profile.png';
-import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
+import profile from './profile.jpg';
+import { faAppStore, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-  name: "Hashir",
+  name: "Sneha",
   links: [
     {
       title: "About",
@@ -24,18 +24,18 @@ export const navigation = {
     },
     {
       title: "Blog",
-      link: "https://medium.com/@hashirshoaeb",
+      link: "",
     }
   ],
 }
 export const intro = {
-  title: "Hey, I'm Hashir",
-  description: "A Computer Engineer creating mobile apps and static websites.",
+  title: "Hey, I'm Sneha",
+  description: "A Software Engineer building distributed systems.",
   image: profile.src,
   buttons: [
     {
       title: "Contact Me",
-      link: "#contact",
+      link: "#snehakadam444@gmail.com",
       isPrimary: true,
     },
     {
@@ -49,9 +49,7 @@ export const intro = {
 export const about = {
   title: "Who I am",
   description: [
-    "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-    "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-    "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+    "I’m a Senior Software and Data Engineer with 8+ years of experience designing and building scalable systems, data pipelines, and AI/ML solutions. I specialize in developing and optimizing data engineering workflows, including ETL pipelines, data lakes, and real-time streaming systems, ensuring efficient data processing and high availability. Recently, I’ve expanded my focus to AI and blockchain technologies, working on machine learning models, multi-agent systems, and smart contracts. I’m passionate about leveraging advanced technologies to solve complex problems and deliver innovative, data-driven solutions."
   ],
 }
 
@@ -59,13 +57,18 @@ export const work = {
   title: "What I do",
   cards: [
     {
-      title: "Mobile App Development",
-      description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+      title: "Software Engineering",
+      description: "Full Stack Software Development, search Intelligence, Knowledge graphs",
       icons: null,
     },
     {
-      title: "Web Development",
-      description: "I create responsive static websites using Reactjs.",
+      title: "Data Engineering",
+      description: "Batch & Streaming Data Pipelines, Data Modeling, KPIs, Montinoring, 24/7 supoort",
+      icons: null,
+    },
+    {
+      title: "AI/ML Engineering",
+      description: "AI agents, ML modeling, MLOps, LLMops",
       icons: null,
     }
   ],
@@ -75,40 +78,40 @@ export const projects = {
   title: "Projects",
   cards: [
     {
-      title: "StarBook",
-      description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+      title: "AI-Powered Credit Risk Model",
+      description: "A  machine-learning model using TensorFlow to predict credit risk. Deployed the model using Vertex AI and integrated it with data pipelines for data prep.",
       icons: [
         {
           icon: faAppStore,
-          link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
+          link: "",
         },
         {
           icon: faGithub,
-          link: "https://github.com/hashirshoaeb/star_book",
+          link: "https://github.com/snehakadam25/invRiskModeling",
         },
       ]
     },
     {
-      title: "QuranTalk",
-      description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+      title: "Multi-Agent AI for Support Automation",
+      description: "Built a multi-agent system where one agent handles technical troubleshooting, another responds to FAQs, and a third escalates complex issues, indexed codebases with Pinecone and provides contextual explanations using RAG and LangChain.",
       icons: [
         {
           icon: faAppStore,
-          link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
+          link: "",
         },
         {
-          icon: faGooglePlay,
-          link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
+          icon: faGithub,
+          link: "https://github.com/snehakadam25/multiAgent",
         },
       ]
     },
     {
-      title: "Portfolio",
-      description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+      title: "Blockchain",
+      description: "TBD",
       icons: [
         {
           icon: faGithub,
-          link: "https://github.com/hashirshoaeb/portfolio",
+          link: "",
         },
       ]
     },
@@ -117,16 +120,16 @@ export const projects = {
 
 export const contact = {
   title: "Get in touch",
-  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email",
   buttons: [
     {
       title: "Email Me",
-      link: "mailto:hashirshoaeb@gmail.com",
+      link: "mailto:snehakadam444@gmail.com",
       isPrimary: true,
     },
     {
       title: "Schedule Meeting",
-      link: "https://topmate.io/hashirshoaeb",
+      link: "https://meet.google.com/",
       isPrimary: false,
     },
   ]
